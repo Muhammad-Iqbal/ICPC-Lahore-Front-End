@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ICPC</title>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background: url(images/back.png) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        #headerLogos {
+            overflow: hidden;
+            align-items: center;
+            margin-bottom: 3%;
+        }
+
+        img {
+            float: right;
+            margin-left: 6.5%;
+            margin-right: 4%;
+        }
+
+        #ocs img {
+            margin-top: 4%;
+            height: 20%;
+            width: 10%
+        }
+
+        #acm img {
+            margin-top: 4%;
+            height: 15%;
+            width: 8%
+        }
+
+        #icpc img {
+            margin-top: 3%;
+            height: 25%;
+            width: 15%
+        }
+
+        #sst img {
+            margin-top: 3%;
+            height: 40%;
+            width: 25%
+        }
+
+        #loginButton {
+            height: 200px;
+        }
+
+        #welcomeDiv {
+            margin: 5%;
+            align-items: center;
+        }
+
+
+        h2 {
+            position: relative;
+            text-align: center;
+            color: #FFFFFF;
+            color: rgb(255, 255, 255);
+            text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+        }
+
+        #divfooter {
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            height: 12%;
+
+            background-color: rgb(255, 255, 255);
+        }
+
+        #jetb img {
+            margin-top: 1%;
+            margin-right: 15%;
+            height: 4%;
+            width: 4%
+        }
+
+        #acm2 img {
+            margin-right: 15%;
+            margin-top: 1%;
+            height: 10%;
+            width: 25%
+        }
+
+        #icpcf img {
+            margin-right: 10%;
+            margin-top: 1%;
+            height: 8%;
+            width: 8%
+        }
+
+
+        .form {
+            position: relative;
+            z-index: 1;
+            max-width: 30%;
+            margin: 0 auto 100px;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .form input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+        }
+
+        .form button:hover,
+        .form button:active,
+        .form button:focus {
+            background: #43A047;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id=headerLogos>
+
+        <div id="ocs">
+            <a href="#" title="">
+                <img src="images/ocs.png" alt="OCS">
+            </a>
+        </div>
+
+        <div id="acm">
+            <a href="#" title="">
+                <img src="images/acm.png" alt="ACM">
+            </a>
+        </div>
+
+        <div id="icpc">
+            <a href="#" title="">
+                <img src="images/icpc.png" alt="ICPC">
+            </a>
+        </div>
+
+        <div id="sst">
+            <a href="#" title="">
+                <img src="images/sst.png" alt="SST">
+            </a>
+        </div>
+
+    </div>
+    <div id="welcomeDiv">
+        <h2>WELCOME TO ACM ICPC REGIONAL FINALS</h2>
+        <h2>LAHORE</h2>
+    </div>
+
+
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="Team Name" />
+                <input type="password" placeholder="password" />
+                <button>login</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="divfooter">
+        <div id="icpcf">
+            <a href="#" title="">
+                <img src="images/icpcf.png" alt="SST">
+            </a>
+        </div>
+
+        <div id="acm2">
+            <a href="#" title="">
+                <img src="images/acm2.png" alt="SST">
+            </a>
+        </div>
+        <div id="jetb">
+            <a href="#" title="">
+                <img src="images/jetb.png" alt="SST">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
